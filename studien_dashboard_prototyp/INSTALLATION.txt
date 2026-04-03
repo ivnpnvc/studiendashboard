@@ -1,0 +1,28 @@
+Installations- und Startanleitung
+================================
+
+Voraussetzungen
+- Windows 10/11 oder ein aktuelles anderes Betriebssystem
+- Python 3.11 oder neuer
+
+Start in 4 Schritten
+1. ZIP-Datei entpacken.
+2. Eingabeaufforderung oder PowerShell im Projektordner öffnen.
+3. Optional testen, ob Python installiert ist:
+   python --version
+4. Programm starten mit:
+   python main.py
+
+Empfohlener Testablauf
+1. Im Menü Option 6 wählen (Beispieldaten laden).
+2. Danach Option 3 wählen (Dashboard anzeigen).
+3. Optional neue Module oder Prüfungsleistungen anlegen.
+4. Mit Option 4 speichern und mit Option 5 wieder laden.
+
+Speicherort der JSON-Datei
+- Die Datei wird automatisch im Ordner `data` mit dem Namen
+  `studien_dashboard.json` gespeichert.
+
+Hinweise
+- Es werden keine externen Bibliotheken benötigt.
+- Falls `python` nicht funktioniert, alternativ `py main.py` verwenden.
